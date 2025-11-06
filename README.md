@@ -21,4 +21,11 @@ Tudo o que for encontrado deve ser registrado em arquivos `.md` para ser usado n
 
 Opcional:
 ```bash
+
 pip install -r requirements.txt
+```
+
+## 3. Execução do projeto pelo terminal
+
+
+Para executar o projeto é necessário utilizar o terminal (PowerShell ou CMD no Windows) e navegar até a pasta onde está o arquivo principal (`src/main.py`). Partindo da raiz do projeto (pasta onde está o `README.md`), acesse a pasta `src` com `cd src` e, já dentro dela, rode o analisador informando o arquivo de teste que está na pasta `tests`, que fica uma pasta acima; o comando completo fica assim: `python .\main.py ..\tests\teste1.txt`. Nesse comando, `python` chama o interpretador, `.\main.py` executa o arquivo principal e `..\tests\teste1.txt` é o caminho relativo até o arquivo de teste (o `..` volta da pasta `src` para a raiz e depois entra em `tests`). Após a execução, os arquivos de saída serão gerados ou atualizados na pasta `docs` da raiz do projeto, e você pode repetir o processo mudando apenas o nome do arquivo de teste, por exemplo `python .\main.py ..\tests\com_erros.txt`.
