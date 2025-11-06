@@ -1,3 +1,4 @@
+# Vitor Hugo Behlau Weber
 def _classify_token(tok):
     ops = {"+", "-", "*", "|", "/", "%", "^", ">", "<", ">=", "<=", "==", "!=", "if", "while", "RES", "MEM"}
     if tok in ops:
@@ -55,4 +56,5 @@ def tokenize_file(path):
                 all_lines.append([])
             else:
                 all_lines.append(tokenize_line(line, i))
+
     return all_lines
