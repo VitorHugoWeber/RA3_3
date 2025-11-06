@@ -1,0 +1,35 @@
+# Julgamento de Tipos
+
+- Linha 1 op / -> unknown
+- Linha 1 literal -> real
+- Linha 1 literal -> int
+- Linha 2 op MEM -> unknown
+- Linha 2 id mZ -> unknown
+- Linha 3 op RES -> unknown
+- Linha 3 literal -> int
+- Linha 4 op if -> int
+- Linha 4 literal -> int
+- Linha 4 literal -> int
+- Linha 4 op MEM -> int
+- Linha 4 literal -> int
+- Linha 4 id mR -> unknown
+- Linha 5 op while -> unknown
+- Linha 5 literal -> int
+- Linha 5 literal -> int
+- Linha 5 id + -> unknown
+- Linha 5 op MEM -> unknown
+- Linha 5 id mNot -> unknown
+- Linha 6 op % -> int
+- Linha 6 literal -> int
+- Linha 6 literal -> int
+- Linha 7 op MEM -> int
+- Linha 7 literal -> int
+- Linha 7 id mInit -> unknown
+- Linha 8 op MEM -> int
+- Linha 8 id mInit -> int
+- Linha 9 op == -> bool
+- Linha 9 literal -> int
+- Linha 9 literal -> int
+- Linha 10 op + -> unknown
+- Linha 10 id x -> unknown
+- Linha 10 id y -> unknown
