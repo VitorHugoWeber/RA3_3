@@ -1,3 +1,4 @@
+# Vitor Hugo Behlau Weber
 from .gramatica_atributos import T_BOOL, T_INT
 
 def analisar_memoria_controle(program, tabela):
@@ -30,4 +31,5 @@ def _visitar(node, tabela, erros):
         for a in node["args"]:
             _visitar(a, tabela, erros)
     else:
+
         return
