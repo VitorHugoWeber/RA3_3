@@ -1,3 +1,4 @@
+# Vitor Hugo Behlau Weber
 T_INT = "int"
 T_REAL = "real"
 T_BOOL = "bool"
@@ -48,4 +49,5 @@ def get_gramatica_markdown():
     texto.append("- (V MEM) : armazena tipo de V em MEM; booleano não pode ser armazenado")
     texto.append("- (MEM) : retorna tipo associado a MEM")
     texto.append("- if e while : expressão condicional deve ser bool")
+
     return "\n".join(texto)
