@@ -1,3 +1,4 @@
+# Vitor Hugo Behlau Weber
 import json
 from pathlib import Path
 
@@ -11,4 +12,5 @@ def save_text(text, path):
     p = Path(path)
     p.parent.mkdir(parents=True, exist_ok=True)
     with p.open("w", encoding="utf-8") as f:
+
         f.write(text)
