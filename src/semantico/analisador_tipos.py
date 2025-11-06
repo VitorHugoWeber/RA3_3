@@ -1,3 +1,4 @@
+# Vitor Hugo Behlau Weber
 from .gramatica_atributos import T_INT, T_REAL, T_BOOL, T_UNKNOWN, tipo_binario
 
 def analisar_tipos(program):
@@ -87,4 +88,5 @@ def inferir_tipo(node, tabela, erros, idx_linha_prog, linhas_resultado):
         node["inferred_type"] = tipos_args[0]
         return tipos_args[0]
     node["inferred_type"] = T_UNKNOWN
+
     return T_UNKNOWN
