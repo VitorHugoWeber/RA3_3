@@ -1,3 +1,4 @@
+# Vitor Hugo Behlau Weber
 import sys
 from pathlib import Path
 from lexer import tokenize_file
@@ -33,4 +34,5 @@ if __name__ == "__main__":
         caminho = str(Path(__file__).resolve().parent.parent / "tests" / "teste1.txt")
     else:
         caminho = sys.argv[1]
+
     executar(caminho)
