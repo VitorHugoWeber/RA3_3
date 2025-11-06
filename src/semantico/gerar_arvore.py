@@ -1,3 +1,4 @@
+# Vitor Hugo Behlau Weber
 import json
 from pathlib import Path
 
@@ -56,4 +57,5 @@ def _listar_tipos(node, f):
         return
     f.write("- Linha {} op {} -> {}\n".format(node["line"], node["op"], node.get("type")))
     for a in node["args"]:
+
         _listar_tipos(a, f)
