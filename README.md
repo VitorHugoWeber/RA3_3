@@ -19,11 +19,6 @@ Tudo o que for encontrado deve ser registrado em arquivos `.md` para ser usado n
 - Python 3.10+ instalado
 - Terminal com acesso à pasta do projeto
 
-Opcional:
-```bash
-
-pip install -r requirements.txt
-```
 
 ## 3. Execução do projeto pelo terminal
 
