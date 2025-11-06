@@ -1,3 +1,4 @@
+# Vitor Hugo Behlau Weber
 class ParseError(Exception):
     pass
 
@@ -63,4 +64,5 @@ def parse_program(lines_tokens):
         if pos != len(line_tokens):
             raise ParseError("tokens extras na linha {}".format(line_tokens[0]["linha"]))
         program.append(node)
+
     return program
